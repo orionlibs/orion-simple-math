@@ -1,2 +1,2 @@
-# project-name
-A description
+Orion Simple Math
+Java mathematics library using only primitive data types
