@@ -1,7 +1,8 @@
-package io.github.orionlibs.orion_simple_math;
+package io.github.orionlibs.orion_simple_math.random;
 
-import io.github.orionlibs.orion_simple_math.tasks.GetRandomIntegerExceptZeroTask;
-import io.github.orionlibs.orion_simple_math.tasks.GetRandomNumberExceptZeroTask;
+import io.github.orionlibs.orion_simple_math.random.task.GetRandomFloatNumberExceptZeroTask;
+import io.github.orionlibs.orion_simple_math.random.task.GetRandomIntegerExceptZeroTask;
+import io.github.orionlibs.orion_simple_math.random.task.GetRandomNumberExceptZeroTask;
 
 public class RandomNumberGenerationService
 {
@@ -44,5 +45,23 @@ public class RandomNumberGenerationService
     public static double getRandomNumberExceptZero(double minimumNumber, double maximumNumber)
     {
         return GetRandomNumberExceptZeroTask.run(minimumNumber, maximumNumber);
+    }
+
+
+    public static double[] getRandomNumbersExceptZero(int numberOfNumbersToGenerate, double minimumNumber, double maximumNumber)
+    {
+        return GetRandomNumberExceptZeroTask.run(numberOfNumbersToGenerate, minimumNumber, maximumNumber);
+    }
+
+
+    public static float getRandomFloatNumberExceptZero(float minimumNumber, float maximumNumber)
+    {
+        return GetRandomFloatNumberExceptZeroTask.run(minimumNumber, maximumNumber);
+    }
+
+
+    public static float[] getRandomFloatNumbersExceptZero(int numberOfNumbersToGenerate, float minimumNumber, float maximumNumber)
+    {
+        return GetRandomFloatNumberExceptZeroTask.run(numberOfNumbersToGenerate, minimumNumber, maximumNumber);
     }
 }

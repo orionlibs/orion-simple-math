@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.orionlibs</groupId>
     <artifactId>orion-simple-math</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Orion Simple Math</name>
     <description>Java mathematics library using only primitive data types</description>
     <url>https://github.com/orionlibs/orion-simple-math</url>

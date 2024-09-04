@@ -1,4 +1,4 @@
-package io.github.orionlibs.orion_simple_math.tasks;
+package io.github.orionlibs.orion_simple_math.format.task;
 
 public class FormatNumberWithLeftTrailingZerosTask
 {

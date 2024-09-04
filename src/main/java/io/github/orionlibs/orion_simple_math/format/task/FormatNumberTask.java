@@ -1,4 +1,4 @@
-package io.github.orionlibs.orion_simple_math.tasks;
+package io.github.orionlibs.orion_simple_math.format.task;
 
 import io.github.orionlibs.orion_assert.Assert;
 import java.math.BigDecimal;
