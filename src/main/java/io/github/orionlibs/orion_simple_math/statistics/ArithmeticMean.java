@@ -3,7 +3,7 @@ package io.github.orionlibs.orion_simple_math.statistics;
 import io.github.orionlibs.orion_assert.Assert;
 import java.util.List;
 
-public class Mean
+public class ArithmeticMean
 {
     public float getMean(List<Float> numbers)
     {
